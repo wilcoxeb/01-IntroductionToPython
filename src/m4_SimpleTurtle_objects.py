@@ -10,11 +10,11 @@ Also:
   -- ASSIGNING a VALUE to a NAME (VARIABLE).
 
 Authors: David Mutchler, Dave Fisher, Vibha Alangar, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.
+         their colleagues and Emily
 """
 ###############################################################################
 #
-# TODO: 1.
+# Done: 1.
 #   Yes, that means for YOU to DO things per the following instructions:
 #
 #   On Line 13 above, replace  PUT_YOUR_OWN_NAME_HERE  with your OWN name.
@@ -29,7 +29,7 @@ import rosegraphics as rg
 
 ###############################################################################
 #
-# TODO: 2.
+# Done: 2.
 #   Allow this module to use the  rosegraphics.py  module by marking the
 #     src
 #   folder in this project as a "Sources Root", as follows:
@@ -48,7 +48,7 @@ import rosegraphics as rg
 
 ###############################################################################
 #
-# TODO: 3.
+# Done: 3.
 #   Run this module.  A window will pop up and Turtles will move around.
 #   After the Turtles stop moving, *click anywhere in the window to close it*.
 #
@@ -105,13 +105,28 @@ natasha.speed = 10  # Faster
 natasha.backward(50)
 natasha.right(90)
 natasha.forward(50)
+natasha.left(75)
+natasha.forward(100)
 
 natasha.speed = 1  # Now slower
 natasha.go_to(rg.Point(-100, 200))
 
+sarah = rg.SimpleTurtle('circle')
+sarah.pen = rg.Pen('blue', 15)
+sarah.speed = 20
+
+sarah.forward(75)
+sarah.left(90)
+sarah.forward(100)
+sarah.right(45)
+
+
+sarah.speed = 1
+
+
 ###############################################################################
 #
-# TODO: 4.
+# Done: 4.
 #   Add a few more lines of your own code to make one of the
 #   existing SimpleTurtles move some more and/or have different
 #   characteristics.
@@ -125,7 +140,7 @@ natasha.go_to(rg.Point(-100, 200))
 
 ###############################################################################
 #
-# TODO: 5.
+# Done: 5.
 #   The above code  CONSTRUCTS  two SimpleTurtle objects
 #   and gives those objects NAMES:
 #       boris    natasha
@@ -152,7 +167,7 @@ natasha.go_to(rg.Point(-100, 200))
 
 ###############################################################################
 #
-# TODO: 6.
+# Done: 6.
 #   Run one more time to be sure that all is still OK.
 #   Ensure that no blue bars on the scrollbar-thing to the right remain.
 #
