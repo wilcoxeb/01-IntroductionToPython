@@ -1,5 +1,6 @@
 print('Hello, World')
-
+print('Volleyball')
+print(3607*34227)
 ###############################################################################
 #
 #   This line is a COMMENT -- a note to human readers of this file.
@@ -17,7 +18,7 @@ print('Hello, World')
 
 ###############################################################################
 #
-# TODO: 1.
+# Done: 1.
 #   (Yes, that means for YOU to DO things per these instructions:)
 #
 #   Run this module by right clicking anywhere in this window and selecting
@@ -27,14 +28,10 @@ print('Hello, World')
 #   After running, find the Run window (to the right) and confirm that
 #        Hello, World
 #   did indeed get printed (displayed) on that window.
+# right.
 #
-###############################################################################
-
-###############################################################################
 #
-# TODO: 2.
-#   Notice the small horizontal BLUE bars on the scrollbar-like thing
-#   on the right.  Each blue bar indicates a thing TO-DO in this module.
+# Each blue bar indicates a thing TO-DO in this module.
 #
 #     a. You can use the blue bars to go from one TO-DO to the next
 #        by clicking on the blue bars.  ** Try that now. **
@@ -57,7 +54,7 @@ print('Hello, World')
 
 ###############################################################################
 #
-# TODO: 3.
+# Done: 3.
 #   Add another   print   statement below the current Line 1 above.
 #   It should print any string that you want (but keep it G-rated!)
 #
@@ -70,7 +67,7 @@ print('Hello, World')
 
 ###############################################################################
 #
-# TODO: 4.
+# Done: 4.
 #   Add yet another   print   statement.
 #   This one should print the *product* of 3,607 and 34,227.
 #   Let the computer do the arithmetic for you (no calculators!).
@@ -84,7 +81,7 @@ print('Hello, World')
 
 ###############################################################################
 #
-# TODO: 5.
+# Done: 5.
 #   Look at the list of files in the Project window (to the left).  Note that
 #   this file (m2_todo_and_commit_push.py) is now displayed in BLUE.
 #
